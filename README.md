@@ -1,8 +1,24 @@
 # Online-Food-Delivery-System
 
+System Requirements Specifications:
+===================================
+
+⦁	System Interface: 
+
+The software is developed in Apache NetBeans IDE 15 with JDK 17 and for database purpose, Oracle 10G is used.
+
+⦁	User Interface:
+
+The client interacts with the system through JFrames, Jbuttons, the core pattern of button.
+
+⦁	Communication Interface:
+
+The communication between the front-end and the back-end is through JDBC. 
+
+
 
 BUILD OUTPUT DESCRIPTION
-=================
+=========================
 
 When you build an Java application project that has a main class, the IDE
 automatically copies all of the JAR
