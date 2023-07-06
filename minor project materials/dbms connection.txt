@@ -1,0 +1,43 @@
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import javax.swing.JOptionPane;
+import oracle.jdbc.OracleConnection;
+import oracle.jdbc.OracleDriver;
+import oracle.jdbc.OracleStatement;
+
+
+    try
+        {
+            // 1. REGISTRATION OF JAVA PROGRAM WITH ORACLE
+            DriverManager.registerDriver(new OracleDriver());
+            
+            // 2. CREATING THE CONNECTION OBJECT
+            OracleConnection oconn =(OracleConnection)DriverManager.getConnection("jdbc:oracle:thin:@ARINDAM-DELL:1521:ORCL","TECHNO1","AFTERNOON");
+            
+            // 3. CREATING THE STATEMENT OBJECT
+            OracleStatement ostmt = (OracleStatement)oconn.createStatement();
+            
+            //4. DECLARING THE VARIABLES
+            String vROLLNO, vNAME, vAGE, vGENDER, vCOURSE, vDOA;
+            
+            // 5. ASSIGNING THE VALUES
+            vROLLNO = tfROLLNO.getText();
+            vNAME = tfNAME.getText();
+            vAGE = sAGE.getValue().toString();
+            vGENDER = rbMALE.isSelected()?"M":"F";
+            vCOURSE = cbCOURSE.getSelectedItem().toString();
+            vDOA = tfDOA.getText();
+            
+            // 6. CREATING THE SQL STATEMENT
+            String sql = "insert into STUDENTS values('"+vROLLNO+"','"+vNAME+"','"+vAGE+"','"+vGENDER+"','"+vCOURSE+"','"+vDOA+"')";
+            JOptionPane.showMessageDialog(this, sql);
+            
+            // 7. EXECUTING THE INSERT
+            ostmt.executeUpdate(sql);
+            
+            JOptionPane.showMessageDialog(this,"Student added successfully"); 
+        }
+        catch(SQLException ex)
+        {
+            JOptionPane.showMessageDialog(this,ex.toString());
+        }

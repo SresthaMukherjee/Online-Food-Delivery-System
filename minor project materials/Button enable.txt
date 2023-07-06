@@ -1,0 +1,7 @@
+
+Button enabled logic :
+if(cbChicken.isSelected()){
+            sQuantity.setEnabled(true);
+        }else{
+            sQuantity.setEnabled(false);
+        }

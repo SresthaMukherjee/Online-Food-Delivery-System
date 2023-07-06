@@ -1,0 +1,27 @@
+java.awt.EventQueue.invokeLater(()->{
+                        newViewProfileForm(tfUsername.getText()).setVisible(true);
+                    });
+
+
+
+try{
+            DriverManager.registerDriver(new OracleDriver());
+            OracleConnection oconn = (OracleConnection)DriverManager.getConnection("jdbc:oracle:thin:@DESKTOP-EE2LFR6:1522:ORCL","spandan","das");
+             String sql = "select * from  Register where USERNAME=?";
+             OraclePreparedStatement ostmt = (OraclePreparedStatement)oconn.prepareStatement(sql);
+             ostmt.setString(1,LUser.getText());
+             OracleResultSet ors = (OracleResultSet)ostmt.executeQuery();
+             
+             if(ors.next()){
+                 tfUsername.setText(ors.getString(1));
+             }
+             ors.close();
+             ostmt.close();
+             oconn.close();
+        }
+        catch(SQLException ex)
+        {
+            JOptionPane.showMessageDialog(this,ex.toString());
+        }catch(ParseException ex){
+            Logger.getLogger(ViewProfileForm.class.getName()).log(Level.Serve,null,ex);
+        }

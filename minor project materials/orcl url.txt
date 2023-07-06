@@ -1,0 +1,1 @@
+jdbc:oracle:thin:@DESKTOP-EE2LFR6:1522:ORCL
