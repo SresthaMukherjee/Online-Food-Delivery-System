@@ -40,6 +40,8 @@ class name in the manifest Main-Class element.
 
 ![userprofile](https://github.com/SresthaMukherjee/Online-Food-Delivery-System/assets/99588466/04e8fba1-9cca-4a83-b9a0-7d8cb517e92a)
 
+![show user](https://github.com/SresthaMukherjee/Online-Food-Delivery-System/assets/99588466/60046c63-f955-4577-a626-e627b6949069)
+
 ![welcome page](https://github.com/SresthaMukherjee/Online-Food-Delivery-System/assets/99588466/76694ef1-4288-48cb-9d5b-78fdebcc9e2b)
 
 ![viewmenu](https://github.com/SresthaMukherjee/Online-Food-Delivery-System/assets/99588466/f389eaf8-940d-49cf-bb25-2f11a6fbd26e)
@@ -56,5 +58,5 @@ class name in the manifest Main-Class element.
 
 
 ![database](https://github.com/SresthaMukherjee/Online-Food-Delivery-System/assets/99588466/fdae8eca-4a4f-4b2c-b265-1f112cbe8bcd)
-![show user](https://github.com/SresthaMukherjee/Online-Food-Delivery-System/assets/99588466/60046c63-f955-4577-a626-e627b6949069)
+
 ![show user details](https://github.com/SresthaMukherjee/Online-Food-Delivery-System/assets/99588466/54c487ba-a738-4080-98c4-64016021651c)
