@@ -38,9 +38,9 @@ class name in the manifest Main-Class element.
 
 ![register](https://github.com/SresthaMukherjee/Online-Food-Delivery-System/assets/99588466/518cf929-4055-4188-b6c2-3a1d4931906f)
 
-![userprofile](https://github.com/SresthaMukherjee/Online-Food-Delivery-System/assets/99588466/04e8fba1-9cca-4a83-b9a0-7d8cb517e92a)
-
 ![welcome page](https://github.com/SresthaMukherjee/Online-Food-Delivery-System/assets/99588466/76694ef1-4288-48cb-9d5b-78fdebcc9e2b)
+
+![userprofile](https://github.com/SresthaMukherjee/Online-Food-Delivery-System/assets/99588466/04e8fba1-9cca-4a83-b9a0-7d8cb517e92a)
 
 ![viewmenu](https://github.com/SresthaMukherjee/Online-Food-Delivery-System/assets/99588466/f389eaf8-940d-49cf-bb25-2f11a6fbd26e)
 
